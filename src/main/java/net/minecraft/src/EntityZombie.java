@@ -3,7 +3,7 @@ package net.minecraft.src;
 public class EntityZombie extends EntityMob {
 	public EntityZombie(World var1) {
 		super(var1);
-		this.moveSpeed = 0.5F;
+		this.moveSpeed = 1.0F;
 		this.attackStrength = 5;
 	}
 
