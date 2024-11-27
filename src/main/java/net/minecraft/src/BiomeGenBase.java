@@ -23,7 +23,7 @@ public class BiomeGenBase {
 	public int color;
 	public byte topBlock = (byte)Block.grass.blockID;
 	public byte fillerBlock = (byte)Block.dirt.blockID;
-	public int field_6502_q = 5169201;
+	public int field_6502_q = 1120580;
 	protected List spawnableMonsterList = new ArrayList();
 	protected List spawnableCreatureList = new ArrayList();
 	protected List spawnableWaterCreatureList = new ArrayList();
