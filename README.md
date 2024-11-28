@@ -5,3 +5,8 @@ A bit of a backstory for this one. NameNotFound contacted me and asked if I want
 ## Play
 Play it! https://saiyangonzalez01.github.io/Eclipse-Client-ReDefault/web
 
+## Contributors
+
+SaiyanGonzalez01 ~ Owner
+PeytonPlayz595 ~ Original Beta 1.7.3 Creator
+
