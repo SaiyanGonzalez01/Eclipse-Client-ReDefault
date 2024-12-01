@@ -29,24 +29,20 @@ public class GuiScreenEditProfile extends GuiScreen {
 	private static final TextureLocation gui = new TextureLocation("/gui/gui.png");
 	
 	public static final String[] defaultOptions = new String[] {
-			"Default Steve",
-			"Tennis Steve",
-			"Tuxedo Steve",
-			"Athlete Steve",
-			"Cyclist Steve",
-			"Boxer Steve",
-			"Prisoner Steve",
-			"Scottish Steve",
-			"Developer Steve",
-			"Herobrine",
-			"Slime",
-			"Trump",
-			"Notch",
-			"Creeper",
-			"Zombie",
-			"Pig",
-			"Squid",
-			"Mooshroom"
+			"Default 1",
+			"Default 2",
+			"Default 3",
+			"Default 4",
+			"Default 5",
+			"Default 6",
+			"Default 7",
+			"Default 8",
+			"Default 9",
+			"Default 10",
+			"Default 11",
+			"Default 12",
+			"Default 13",
+			"Default 14"
 	};
 	
 	public static final TextureLocation[] defaultOptionsTextures = new TextureLocation[] {
@@ -63,11 +59,7 @@ public class GuiScreenEditProfile extends GuiScreen {
 			new TextureLocation("/skins/11.slime.png"),
 			new TextureLocation("/skins/12.trump.png"),
 			new TextureLocation("/skins/13.notch.png"),
-			new TextureLocation("/skins/14.creeper.png"),
-			new TextureLocation("/skins/15.zombie.png"),
-			new TextureLocation("/skins/16.pig.png"),
-			new TextureLocation("/skins/17.squid.png"),
-			new TextureLocation("/skins/18.mooshroom.png")
+			new TextureLocation("/skins/14.creeper.png")
 	};
 	
 	protected String screenTitle = "Edit Profile";
