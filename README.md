@@ -13,4 +13,4 @@ PeytonPlayz595 ~ Original Beta 1.7.3 Creator
 
 ## Credits
 
-In-game Font is from the Alphaver Devs
+In-game Font & Skins is from the Alphaver Devs
