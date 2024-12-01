@@ -8,5 +8,9 @@ Play it! https://saiyangonzalez01.github.io/Eclipse-Client-ReDefault/web
 ## Contributors
 
 SaiyanGonzalez01 ~ Owner
+
 PeytonPlayz595 ~ Original Beta 1.7.3 Creator
 
+## Credits
+
+In-game Font is from the Alphaver Devs
