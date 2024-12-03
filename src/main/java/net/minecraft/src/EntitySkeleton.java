@@ -42,7 +42,7 @@ public class EntitySkeleton extends EntityMob {
 				this.worldObj.playSoundAtEntity(this, "random.bow", 1.0F, 1.0F / (this.rand.nextFloat() * 0.4F + 0.8F));
 				this.worldObj.entityJoinedWorld(var7);
 				var7.setArrowHeading(var3, var8 + (double)var10, var5, 0.6F, 12.0F);
-				this.attackTime = 30;
+				this.attackTime = 10;
 			}
 
 			this.rotationYaw = (float)(Math.atan2(var5, var3) * 180.0D / (double)((float)Math.PI)) - 90.0F;
