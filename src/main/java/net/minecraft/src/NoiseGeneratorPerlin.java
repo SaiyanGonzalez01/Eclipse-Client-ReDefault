@@ -12,9 +12,9 @@ public class NoiseGeneratorPerlin extends NoiseGenerator {
 
 	public NoiseGeneratorPerlin(Random var1) {
 		this.permutations = new int[512];
-		this.xCoord = var1.nextDouble() * 256.0D;
+		this.xCoord = var1.nextDouble() * 128.0D;
 		this.yCoord = var1.nextDouble() * 256.0D;
-		this.zCoord = var1.nextDouble() * 256.0D;
+		this.zCoord = var1.nextDouble() * 128.0D;
 
 		int var2;
 		for(var2 = 0; var2 < 256; this.permutations[var2] = var2++) {
