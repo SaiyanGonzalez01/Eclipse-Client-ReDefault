@@ -16,7 +16,7 @@ public class NoiseGenerator2 {
 	public NoiseGenerator2(Random var1) {
 		this.field_4295_e = new int[512];
 		this.field_4292_a = var1.nextDouble() * 256.0D;
-		this.field_4291_b = var1.nextDouble() * 256.0D;
+		this.field_4291_b = var1.nextDouble() * 128.0D;
 		this.field_4297_c = var1.nextDouble() * 256.0D;
 
 		int var2;
