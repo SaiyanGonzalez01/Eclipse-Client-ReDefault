@@ -7,6 +7,9 @@ import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Date;
 
+//the random i prefer, and used for the splashtexts -chicken-nugget
+import java.util.Random;
+
 import net.PeytonPlayz585.opengl.GL11;
 import net.PeytonPlayz585.textures.TextureLocation;
 
@@ -16,17 +19,38 @@ public class GuiMainMenu extends GuiScreen {
 	
 	private static final Random rand = new Random();
 	private float updateCounter = 0.0F;
-	private String splashText = "missingno";
+	public String splashText = "erm this is a placeholder";
+
+	String[] splashTexts = {
+        	"Old-School!",
+        	"Built on sticks and stones!",
+        	"TeaVM is so epic!",
+       		"As a child i yearned for the mines...",
+        	"At least 6% bug free!",
+		"World of Rubydung!",
+		"Nuggets are nice!",
+		"Saiyan's Golden Child!",
+		"Try Ctrl + Shift + Q + Q!",
+		"Minecraft? More like Eaglercraft!",
+		"Browser Supported!",
+		"100% less laxatives for 1 dude!",
+		"Better than S-SP!",
+		"1 star, deal with it Saiyan!",
+		"Try Terraria Stamped!",
+		"Honey, the erasers are moving!",
+		"byte[] splash = new byte[] {72, 101, 108, 108, 111, 44, 32, 119, 111, 114, 108, 100, 33};" //this is a play on how the old splash text worked, and is just hello world in bytes
+    	};
+	
 	private GuiButton multiplayerButton;
 	
-	byte[] splash = new byte[] {77, 97, 100, 101, 32, 98, 121, 32, 80, 101, 121, 116, 111, 110, 80, 108, 97, 121, 122, 53, 56, 53, 33};
+//	byte[] splash = new byte[] {87, 111, 114, 108, 100, 32, 111, 102, 32, 82, 117, 98, 121, 100, 117, 110, 103, 33};
 
 	public GuiMainMenu() {
-		splashText = new String(splash);
+		splashText = splashTexts[rand.nextInt(splashTexts.length)];
 	}
 
 	public void updateScreen() {
-		++this.updateCounter;
+		this.updateCounter++;
 	}
 
 	protected void keyTyped(char var1, int var2) {
@@ -100,9 +124,13 @@ public class GuiMainMenu extends GuiScreen {
 		GL11.glScalef(var8, var8, var8);
 		this.drawCenteredString(this.fontRenderer, this.splashText, 0, -8, 16776960);
 		GL11.glPopMatrix();
-		this.drawString(this.fontRenderer, "Minecraft Beta 1.7.3", 2, 2, 5263440);
-		String var9 = "Copyright Mojang AB. Do not distribute.";
+		this.drawString(this.fontRenderer, "Minecraft Old-School RD", 2, 2, 5263440);
+		String var9 = "Created by Saiyan Gonzalez";
 		this.drawString(this.fontRenderer, var9, this.width - this.fontRenderer.getStringWidth(var9) - 2, this.height - 10, 16777215);
 		super.drawScreen(var1, var2, var3);
 	}
 }
+
+ 
+
+
