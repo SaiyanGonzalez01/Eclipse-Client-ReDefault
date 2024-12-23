@@ -8,6 +8,7 @@ public enum EnumArt {
 	Bomb("Bomb", 16, 16, 64, 0),
 	Plant("Plant", 16, 16, 80, 0),
 	Wasteland("Wasteland", 16, 16, 96, 0),
+	Invaders("", 16, 16, 112, 0),
 	Pool("Pool", 32, 16, 0, 32),
 	Courbet("Courbet", 32, 16, 32, 32),
 	Sea("Sea", 32, 16, 64, 32),
