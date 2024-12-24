@@ -30,7 +30,7 @@ public class EntityCreeper extends EntityMob {
 	protected void attackBlockedEntity(Entity var1, float var2) {
 		if(!this.worldObj.multiplayerWorld) {
 			if(this.timeSinceIgnited > 0) {
-				this.setCreeperState(-1);
+				this.setCreeperState(1);
 				--this.timeSinceIgnited;
 				if(this.timeSinceIgnited < 0) {
 					this.timeSinceIgnited = 0;
