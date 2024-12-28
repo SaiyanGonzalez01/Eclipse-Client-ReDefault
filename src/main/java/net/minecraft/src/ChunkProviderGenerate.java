@@ -154,7 +154,7 @@ public class ChunkProviderGenerate implements IChunkProvider {
 									}
 
 									if(var11) {
-										var16 = (byte)Block.sand.blockID;
+										var16 = (byte)Block.stone.blockID;
 									}
 								}
 
@@ -493,7 +493,7 @@ public class ChunkProviderGenerate implements IChunkProvider {
 		}
 
 		if(var6 == BiomeGenBase.plains) {
-			var28 = 10;
+			var28 = 30;
 		}
 
 		int var20;
