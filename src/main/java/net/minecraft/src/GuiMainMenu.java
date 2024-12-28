@@ -36,7 +36,7 @@ public class GuiMainMenu extends GuiScreen {
 		"X Xevious!",
 		"You have no friends :D!",
 		"BLLYYAAT!",
-		"Sponsed by Reddit!",
+		"Sponsored by Reddit!",
 		"byte[] splash = new byte[] {72, 101, 108, 108, 111, 44, 32, 119, 111, 114, 108, 100, 33};" //this is a play on how the old splash text worked, and is just hello world in bytes
     	};
 	
