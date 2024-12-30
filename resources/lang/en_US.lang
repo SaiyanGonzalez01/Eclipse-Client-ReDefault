@@ -332,6 +332,12 @@ tile.pistonBase.name=Piston
 tile.pistonBase.desc=
 tile.pistonStickyBase.name=Sticky Piston
 tile.pistonStickyBase.desc=
+tile.brightstone.name=Brightstone
+tile.brightstone.desc=
+tile.brickBright.name=Brightstone Brick
+tile.brickBright.desc=
+tile.brightglass.name=Brightstone Glass
+tile.brightglass.desc=
 
 item.shovelIron.name=Copper Shovel
 item.shovelIron.desc=
