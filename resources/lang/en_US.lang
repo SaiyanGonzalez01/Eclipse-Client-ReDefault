@@ -338,6 +338,8 @@ tile.brickBright.name=Brightstone Brick
 tile.brickBright.desc=
 tile.brightglass.name=Brightstone Glass
 tile.brightglass.desc=
+tile.flowerBlue.name=Blue Langs
+tile.flowerBlue.desc=
 
 item.shovelIron.name=Copper Shovel
 item.shovelIron.desc=
