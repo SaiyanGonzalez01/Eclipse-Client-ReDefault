@@ -420,19 +420,19 @@ public class ChunkProviderGenerate implements IChunkProvider {
 		}
 
 		if(var6 == BiomeGenBase.forest) {
-			var14 += var13 + 5;
+			var14 += var13 + 10;
 		}
 
 		if(var6 == BiomeGenBase.rainforest) {
-			var14 += var13 + 5;
+			var14 += var13 + 10;
 		}
 
 		if(var6 == BiomeGenBase.seasonalForest) {
-			var14 += var13 + 2;
+			var14 += var13 + 4;
 		}
 
 		if(var6 == BiomeGenBase.taiga) {
-			var14 += var13 + 5;
+			var14 += var13 + 10;
 		}
 
 		if(var6 == BiomeGenBase.desert) {
