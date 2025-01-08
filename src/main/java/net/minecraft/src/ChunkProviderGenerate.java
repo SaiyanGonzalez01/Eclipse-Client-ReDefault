@@ -563,6 +563,13 @@ public class ChunkProviderGenerate implements IChunkProvider {
 			var19 = var5 + this.rand.nextInt(16) + 8;
 			(new WorldGenPumpkin()).generate(this.worldObj, this.rand, var17, var25, var19);
 		}
+		
+		if(this.rand.nextInt(4) == 0) {
+			var17 = var4 + this.rand.nextInt(16) + 8;
+			var25 = this.rand.nextInt(128);
+			var19 = var5 + this.rand.nextInt(16) + 8;
+			(new WorldGenFlowers(Block.flowerBlue.blockID)).generate(this.worldObj, this.rand, var17, var25, var19);
+		}
 
 		var17 = 0;
 		if(var6 == BiomeGenBase.desert) {
