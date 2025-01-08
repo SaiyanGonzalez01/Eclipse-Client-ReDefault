@@ -119,6 +119,7 @@ public class Block {
 	public static final Block brightstone = (new Block(97, 76, Material.rock)).setHardness(2.0F).setResistance(10.0F).setStepSound(soundStoneFootstep).setBlockName("brightstone");
 	public static final Block brickBright = (new Block(98, 77, Material.rock)).setHardness(2.0F).setResistance(10.0F).setStepSound(soundStoneFootstep).setBlockName("brickBright");
 	public static final Block brightglass = (new Block(99, 78, Material.rock)).setHardness(2.0F).setResistance(10.0F).setStepSound(soundStoneFootstep).setBlockName("brightglass");
+	public static final BlockFlower plantblue = (BlockFlower)(new BlockFlower(38, 12)).setHardness(0.0F).setStepSound(soundGrassFootstep).setBlockName("flowerBlue");
 	public int blockIndexInTexture;
 	public final int blockID;
 	protected float blockHardness;
